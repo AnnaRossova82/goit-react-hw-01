@@ -1,0 +1,61 @@
+.profileTotal{
+    border: 3px solid #000; 
+    border-radius: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    padding-top: 10px;
+    text-align: center;
+    background-color:antiquewhite;
+    
+    }
+    
+    .image{
+        width: 250px;
+        height: 250px;
+        border: 2px;
+        background-color: rgb(10, 10, 10);
+        border-radius: 50%;
+        
+    }
+    
+    .name{
+      font-weight: 500;
+      font-size: 45px;
+    }
+    
+    .describe{
+        color: gray;
+        font-size: 40px;
+    }
+    
+    .status {
+      background-color: #8e8a8a;
+      display: flex;
+      flex-direction: row;
+     
+      }
+      
+    
+    .statusItems {
+        display: flex;
+        flex-direction: column;
+    
+        border: 1px solid rgb(12, 12, 12);
+        border-radius: 5px;
+        list-style: none;
+        width: 300px;
+        overflow: hidden;
+      }
+    
+    .cardInfo{
+        font-size: 25px;
+    }
+    
+    .cardNum{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    
+    
